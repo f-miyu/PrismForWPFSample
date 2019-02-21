@@ -30,6 +30,7 @@ namespace PrismForWPFSample
         {
             containerRegistry.RegisterForNavigation<NavigationPage>();
             containerRegistry.RegisterForNavigation<MainPage, MainPageViewModel>();
+            containerRegistry.RegisterForNavigation<SecondPage, SecondPageViewModel>();
         }
     }
 }
